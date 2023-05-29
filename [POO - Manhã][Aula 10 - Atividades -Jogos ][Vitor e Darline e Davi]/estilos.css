@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(180deg, #392958, #3b165e);
+    background-attachment: fixed;
+}
+
+.container-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card img {
+    width: 540px;
+    height: 520px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.card {
+    width: 580px;
+    background-color: #3a3042;
+    padding: 8px;
+    padding-top: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.sinopse {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    color: rgb(244, 230, 255);
+    text-align: center;
+}
+
+
+p {
+    font-size: 25px;
+}
+
+h2,
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+img:hover {
+    scale: 1.1;
+}
+
+.card:hover {
+    scale: 1.08;
+    transition: ease-in-out 350ms;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
