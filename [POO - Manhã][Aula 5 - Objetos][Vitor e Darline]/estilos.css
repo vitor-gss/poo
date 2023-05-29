@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(180deg, #170e4c, #0c0729  );
+    background-attachment: fixed;
+    
+}
+
+.container-carros {
+    display: flex;
+    /* Os itens não ficam na mesma linha */
+    flex-wrap: wrap;
+    gap: 25px;
+    /*Espaço entre os itens */
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2,
+p {
+    color: white;
+}
+
+
+
+.card {
+    /* border: solid 1px #4d4d4d; */
+    padding: 12px;
+    /* Espaço entre a borda e o conteúdo interno*/
+    border-radius: 16px;
+    /*Arredonda as bordas*/
+    background-color: #1b1057;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 4px 4px 16px #000000;
+    margin-left: 15px;
+    padding: 25px;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 16px #5f7cff;
+    transition: ease-in-out 600ms;
+    scale: 1.08;
+}
+
+.card img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover; /*
+    Sempre que modificar a largura e altura de uma imagem,
+    é importante usar o object-fit para manter a proporção
+    */
+}
+
+.modelo {
+    color: #7a91f7;
+}
+
+.marca {
+    color: #999999;
+}
+
+.ano {
+    color: #cccccc;
+}
+
+
+.preco {
+    color: #9caeff;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 700;
+    /* expessura da letra */
+}
