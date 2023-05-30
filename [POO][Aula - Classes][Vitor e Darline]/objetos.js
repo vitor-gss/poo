@@ -51,4 +51,7 @@ meusProdutosTop.adicionarProduto(tv1);
 let produtosTopDaDarline = new Favoritos()
 
 produtosTopDaDarline.adicionarProduto(cel1)
-produtosTopDaDarline.adicionarProduto(tv1)
+produtosTopDaDarline.adicionarProduto(cel5)
+
+console.log(meusProdutosTop);
+console.log(produtosTopDaDarline);
