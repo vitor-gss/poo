@@ -11,9 +11,20 @@ class Celular{
 }
 
 class Tv {
-    constructor(marca, modelo, tamanho){
+    constructor(marca, modelo, tamanho, foto){
         this.marca = marca
         this.modelo = modelo
         this.tamanho = tamanho
+        this.foto = foto
     }
 }
+
+class Favoritos{
+    constructor(){
+        this.listaDeProdutos = []
+    }
+    adicionarProduto(produto){
+        this.listaDeProdutos.push(produto)
+    }
+}
+
