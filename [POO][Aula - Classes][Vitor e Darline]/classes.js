@@ -31,8 +31,9 @@ class Favoritos{
         this.listaDeProdutos.push(produto)
     }
     exibirNoHtml(){
+        document.getElementById("produtos").innerHTML = ""
         for (let i = 0; i < this.listaDeProdutos.length; i++) {
-            document.write(`
+            document.getElementById("produtos").innerHTML += (`
                 <div class="card">
                 <img class="foto" src="img/${this.listaDeProdutos[i].foto}">
                     <div class="info">

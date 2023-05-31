@@ -58,7 +58,7 @@ meusProdutosTop.adicionarProduto(cel4);
 
 //adicionando produtos À segunda lista de favoritos
 produtosTopDaDarline.adicionarProduto(cel1)
-produtosTopDaDarline.adicionarProduto(cel5)
+produtosTopDaDarline.adicionarProduto(cel5) 
 
 //exibindo os produtos da primeira lista
 // meusProdutosTop.exibirNoHtml();
