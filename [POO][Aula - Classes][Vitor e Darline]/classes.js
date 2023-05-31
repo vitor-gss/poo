@@ -8,6 +8,10 @@ class Celular{
         this.qtdDeCameras = qtdDeCameras + " Câmeras"
         this.foto = foto
     }
+
+    exibirNoHtml(){
+
+    }
 }
 
 class Tv {
@@ -25,6 +29,20 @@ class Favoritos{
     }
     adicionarProduto(produto){
         this.listaDeProdutos.push(produto)
+    }
+    exibirNoHtml(){
+        for (let i = 0; i < this.listaDeProdutos.length; i++) {
+            document.write(`
+                <div class="card">
+                <img class="foto" src="img/${this.listaDeProdutos[i].foto}">
+                    <div class="info">
+                        <p class="marca">${this.listaDeProdutos[i].marca}</p>
+                        <p class="modelo">${this.listaDeProdutos[i].modelo}</p>
+                        <p class="outros">${this.listaDeProdutos[i].tamanho} polegadas</p>
+                    </div>
+                </div>
+            `)
+        }
     }
 }
 

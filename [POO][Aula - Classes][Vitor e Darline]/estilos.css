@@ -1,22 +1,26 @@
 .container-cards{
         display: flex;
+        flex-wrap: wrap;
         gap: 12px;
+
 }
+
+
 .card{
     background: linear-gradient(180deg, #276ee0, #009cce);
     border-radius: 16px;
     border: 1px solid #000000;
     padding: 20px;
-
+    height: 430px;
+    width: 267px;
 }
 
 .info{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .foto{
-    width: 220px;
-    height: 300px;
     object-fit: cover;
     position: relative;
     left: 50%;
