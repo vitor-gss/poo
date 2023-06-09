@@ -1,0 +1,39 @@
+Exercício 1: Classe de Retângulo (Concluído)
+Crie uma classe chamada Retangulo com os atributos comprimento e largura. 
+Implemente métodos para calcular a área e o perímetro do retângulo. 
+
+Exercício 2: Classe de Conta Bancária (Concluído)
+Crie uma classe chamada ContaBancaria com os atributos titular e saldo. 
+Implemente métodos para depositar, sacar e exibir o saldo atual da conta.
+
+Exercício 3: Classe de Carro 
+Crie uma classe chamada Carro com os atributos marca, modelo e ano. 
+Implemente métodos para ligar, desligar e acelerar o carro.
+
+Exercício 4: Classe de Animal
+Crie uma classe chamada Animal com os atributos nome e idade. 
+Implemente métodos para fazer o animal emitir um som e exibir sua idade.
+
+Exercício 5: Classe de Pessoa
+Crie uma classe chamada Pessoa com os atributos nome, idade e profissão. 
+Implemente métodos para exibir os dados da pessoa e alterar sua profissão.
+
+Exercício 6: Classe de Contador
+Crie uma classe chamada Contador com o atributo valor. 
+Implemente métodos para incrementar, decrementar e exibir o valor atual do contador.
+
+Exercício 7: Classe de Produto
+Crie uma classe chamada Produto com os atributos nome, preço e quantidade em estoque. 
+Implemente métodos para exibir o valor total em estoque e adicionar mais unidades do produto.
+
+Exercício 8: Classe de Círculo
+Crie uma classe chamada Circulo com o atributo raio. 
+Implemente métodos para calcular a área e o perímetro do círculo.
+
+Exercício 9: Classe de Livro
+Crie uma classe chamada Livro com os atributos título, autor e número de páginas. 
+Implemente métodos para exibir as informações do livro e verificar se ele é um best-seller.
+
+Exercício 10: Classe de Jogador de Futebol
+Crie uma classe chamada JogadorFutebol com os atributos nome, posição e número de gols marcados. 
+Implemente métodos para exibir as estatísticas do jogador e atualizar o número de gols.

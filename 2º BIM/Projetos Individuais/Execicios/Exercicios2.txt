@@ -1,0 +1,50 @@
+Exercício 1: Calculadora
+Crie uma classe chamada Calculadora que tenha métodos para realizar operações básicas de soma, subtração, multiplicação e divisão. 
+No HTML, crie um formulário com campos para os números e selecione a operação desejada. 
+Ao clicar em um botão de "Calcular", exiba o resultado na página.
+
+Exercício 2: Lista de Tarefas
+Crie uma classe chamada ListaTarefas que permita adicionar e remover tarefas. 
+No HTML, crie um formulário com um campo de texto para adicionar tarefas e uma lista onde as tarefas serão exibidas. 
+Ao clicar em um botão de "Adicionar", a tarefa deve ser adicionada à lista. Ao clicar em um botão de "Remover" ao lado de cada tarefa, 
+a tarefa correspondente deve ser removida da lista.
+
+Exercício 3: Relógio
+Crie uma classe chamada Relogio que exiba a hora atual. No HTML, crie um elemento <span> onde a hora será exibida. 
+Utilize o método setInterval() para atualizar o horário a cada segundo.
+
+Exercício 4: Jogo de Adivinhação
+Crie uma classe chamada JogoAdivinhacao que gere um número aleatório e permita ao usuário tentar adivinhar esse número. 
+No HTML, crie um campo de texto para o usuário inserir o seu palpite e um botão de "Adivinhar". 
+Exiba na página se o palpite foi muito alto, muito baixo ou correto.
+
+Exercício 5: Contador de Cliques
+Crie uma classe chamada ContadorCliques que registre o número de cliques em um botão. 
+No HTML, crie um botão e um elemento <span> para exibir o número de cliques. Ao clicar no botão, o número de cliques deve ser atualizado.
+
+Exercício 6: Cadastro de Usuários
+Crie uma classe chamada CadastroUsuarios que permita adicionar novos usuários com nome, e-mail e senha. 
+No HTML, crie um formulário com campos para cada informação e um botão de "Cadastrar". 
+Ao clicar no botão, exiba uma mensagem de sucesso ou erro, dependendo da validação dos dados.
+
+Exercício 7: Jogo da Velha
+Crie uma classe chamada JogoVelha que implemente o jogo da velha. 
+No HTML, crie uma tabela 3x3 para representar o tabuleiro. 
+Ao clicar em uma célula vazia, exiba o símbolo do jogador atual (X ou O) e verifique se houve um vencedor.
+
+Exercício 8: Gerenciador de Tarefas
+Crie uma classe chamada GerenciadorTarefas que permita adicionar, remover e marcar tarefas como concluídas. 
+No HTML, crie um formulário com campos para adicionar tarefas, 
+uma lista onde as tarefas serão exibidas e uma caixa de seleção para marcar como concluídas. 
+Ao clicar em um botão de "Adicionar", a tarefa deve ser adicionada à lista. Ao clicar em um botão de "Remover" ao lado de cada tarefa, 
+a tarefa correspondente deve ser removida da lista. Ao marcar a caixa de seleção, a tarefa deve ser marcada como concluída.
+
+Exercício 9: Simulador de Carrinho de Compras
+Crie uma classe chamada CarrinhoCompras que permita adicionar e remover produtos, calcular o valor total e exibir os produtos no carrinho. 
+No HTML, crie uma lista de produtos disponíveis e um botão de "Adicionar" ao lado de cada produto. 
+Ao clicar no botão, o produto deve ser adicionado ao carrinho. Exiba o carrinho de compras com os produtos adicionados e o valor total.
+
+Exercício 10: Gerador de Senhas
+Crie uma classe chamada GeradorSenhas que gere senhas aleatórias. 
+No HTML, crie um botão "Gerar Senha" e um campo de texto para exibir a senha gerada. 
+Ao clicar no botão, exiba a senha no campo de texto.
