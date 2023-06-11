@@ -1,0 +1,39 @@
+Exercício 1: Classe de Agenda de Contatos
+Crie uma classe chamada AgendaContatos que permita adicionar, remover e pesquisar contatos por nome e número de telefone. 
+Implemente métodos para exibir todos os contatos e o total de contatos na agenda.
+
+Exercício 2: Classe de Conversor de Moedas
+Crie uma classe chamada ConversorMoedas que converta valores entre diferentes moedas. 
+Implemente métodos para converter de uma moeda para outra, considerando as taxas de câmbio.
+
+Exercício 3: Classe de Jogador de RPG
+Crie uma classe chamada JogadorRPG que represente um jogador de RPG. 
+Implemente métodos para adicionar pontos de vida, pontos de ataque e pontos de defesa ao jogador.
+
+Exercício 4: Classe de Baralho
+Crie uma classe chamada Baralho que represente um baralho de cartas. 
+Implemente métodos para embaralhar o baralho, distribuir cartas para os jogadores e exibir as cartas restantes no baralho.
+
+Exercício 5: Classe de Quiz
+Crie uma classe chamada Quiz que permita criar perguntas de múltipla escolha e verificar as respostas dos jogadores. 
+Implemente métodos para adicionar perguntas, exibir perguntas para os jogadores e verificar as respostas corretas.
+
+Exercício 6: Classe de Playlist
+Crie uma classe chamada Playlist que represente uma lista de reprodução de músicas. 
+Implemente métodos para adicionar músicas, remover músicas e reproduzir a próxima música da playlist.
+
+Exercício 7: Classe de Formulário de Inscrição
+Crie uma classe chamada FormularioInscricao que represente um formulário de inscrição com campos como nome, email e telefone. 
+Implemente métodos para validar os dados do formulário e exibir mensagens de erro ou sucesso.
+
+Exercício 8: Classe de Carrinho de Compras
+Crie uma classe chamada CarrinhoCompras que permita adicionar produtos ao carrinho, 
+calcular o valor total da compra e exibir os produtos no carrinho. Implemente métodos para remover produtos do carrinho e aplicar descontos.
+
+Exercício 9: Classe de Calculadora de IMC
+Crie uma classe chamada CalculadoraIMC que calcule o Índice de Massa Corporal (IMC) com base no peso e altura informados. 
+Implemente métodos para exibir o resultado do cálculo e avaliar se a pessoa está abaixo, dentro ou acima do peso ideal.
+
+Exercício 10: Classe de Jogo de Cartas
+Crie uma classe chamada JogoCartas que represente um jogo de cartas, como pôquer ou blackjack. 
+Implemente métodos para embaralhar as cartas, distribuir cartas para os jogadores e verificar as mãos vencedoras.

@@ -3,7 +3,6 @@ class ContaBancaria {
         this.titular = titular;
         this.saldo = saldo;
     }
-
     saldoAtual() {
         console.log("Saldo atual:" + this.saldo)
     }
@@ -12,5 +11,18 @@ class ContaBancaria {
     }
     sacar(valor) {
         this.saldo = this.saldo - valor
+    }
+}
+
+class Banco {
+    constructor() {
+        this.listaDeContas = []
+    }
+    adicionarPessoa(titular) {
+        if (!this.listaDeContas.includes(titular)) {
+            this.listaDeContas.push(titular)
+        }else{
+            alert("Usuário já cadastrado")
+        }
     }
 }

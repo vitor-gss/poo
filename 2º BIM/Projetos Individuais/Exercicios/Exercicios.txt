@@ -6,7 +6,7 @@ Exercício 2: Classe de Conta Bancária (Concluído)
 Crie uma classe chamada ContaBancaria com os atributos titular e saldo. 
 Implemente métodos para depositar, sacar e exibir o saldo atual da conta.
 
-Exercício 3: Classe de Carro 
+Exercício 3: Classe de Carro (Concluído)
 Crie uma classe chamada Carro com os atributos marca, modelo e ano. 
 Implemente métodos para ligar, desligar e acelerar o carro.
 
@@ -18,15 +18,15 @@ Exercício 5: Classe de Pessoa
 Crie uma classe chamada Pessoa com os atributos nome, idade e profissão. 
 Implemente métodos para exibir os dados da pessoa e alterar sua profissão.
 
-Exercício 6: Classe de Contador
+Exercício 6: Classe de Contador (Concluído)
 Crie uma classe chamada Contador com o atributo valor. 
 Implemente métodos para incrementar, decrementar e exibir o valor atual do contador.
 
-Exercício 7: Classe de Produto
+Exercício 7: Classe de Produto 
 Crie uma classe chamada Produto com os atributos nome, preço e quantidade em estoque. 
 Implemente métodos para exibir o valor total em estoque e adicionar mais unidades do produto.
 
-Exercício 8: Classe de Círculo
+Exercício 8: Classe de Círculo (Concluído)
 Crie uma classe chamada Circulo com o atributo raio. 
 Implemente métodos para calcular a área e o perímetro do círculo.
 
