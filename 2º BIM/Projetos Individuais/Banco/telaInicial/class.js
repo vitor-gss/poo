@@ -1,17 +1,27 @@
 class User {
-    constructor(name, password) {
-
+    constructor(name, password, cpf) {
+        this.name = name;
+        this.password = password;
+        this.cpf = cpf;
     }
 }
 class Account {
-    constructor(owner, type, saldo) { // type = Corrente, Poupança...
-
+    constructor(cpf, type, saldo) { // type = Corrente, Poupança...
+        this.cpf = cpf;
+        this.type = type;
+        this.saldo = saldo;
     }
 }
 class Bank {
-    constructor(account) {
-
+    constructor(account, user) {
+        this.account = account;
+        this.users = [{
+            cpf: user.cpf,
+            name: user.name,
+            password: user.password,
+            type: account.type,
+            saldo: account.saldo
+        }];
     }
 }
-const users = [{ owner, password, saldo }] // onde colocar?
 
