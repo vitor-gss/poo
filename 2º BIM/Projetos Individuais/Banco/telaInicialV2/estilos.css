@@ -1,0 +1,15 @@
+#eyes{
+    cursor: pointer;
+}
+.saldoBancario{
+    width: 220px;
+    text-align: center;
+    background-color: wheat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ocultarSaldo{
+    display: none;
+}
