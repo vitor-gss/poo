@@ -1,7 +1,3 @@
-var user = new User("Vitão", 2023, "03895124444");
-var account = new Account(user.cpf, "Corrente", 32);
-var bank = new Bank(account, user);
-
 // declara inputs
 const frm = document.querySelector("form");
 
@@ -25,12 +21,26 @@ function obterSaldoBancario() {
     return Number(bank.account.saldo);
 }
 
-frm.addEventListener("submit", (e) => { // quando o botão Adicionar saldo for criado
+frm.addEventListener("submit", (e) => { // quando o botão Adicionar saldo for acionado
     e.preventDefault();
     const valor = Number(frm.inValor.value)
-
+    bank.account.saldo += valor 
+    preencherSaldo() // atualiza o saldo
 });
 
+frm.btRemoverSaldo.addEventListener("click", () => {
+    if(!frm.checkValidity()){
+        alert("Insira os valores corretamente")
+        return
+    }
+    const valor = Number(frm.inValor.value)
+    if(valor > bank.account.saldo){
+        alert("O valor informado é maior que o saldo atual. Insira um valor menor ou igual ao saldo atual")
+        return
+    }
+    bank.account.saldo -= valor 
+    preencherSaldo() // atualiza o saldo
+})
 
 function mudarOlhos() {
     if (eye.className == "fa-solid fa-eye") {
