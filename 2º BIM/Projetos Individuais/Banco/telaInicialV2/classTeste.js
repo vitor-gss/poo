@@ -22,10 +22,6 @@ class Account { // Informações da conta
         this.type = type;
         this.saldo = saldo;
     }
- 
-    getDetails() {
-        return [this.type, this.saldo];
-    }
 }
 class Bank {
     constructor() {
