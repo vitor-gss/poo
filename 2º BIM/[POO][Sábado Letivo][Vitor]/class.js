@@ -15,28 +15,26 @@ class Shop {
 }
 
 class Product {
-    constructor(item, unit_price) {
-        this.item = item;
+    constructor(nameItem, unit_price) {
+        this.nameItem = nameItem;
         this.unit_price = unit_price;
     }
 }
 
 class Pedido {
-    constructor(date, number, user, shop, subtotal, frete) {
+    constructor(date, number, user, shop, frete) {
         this.date = date;
         this.number = number;
-        this.itens = [];
-        this.total_price = this.itens.productPrice.reduce((index, acumulator) => index + acumulator, 0)
-        this.frete = frete;
-        this.subtotal = subtotal;
-        this.shop = shop;
         this.user = user;
+        this.shop = shop;
+        this.frete = frete;
+        this.itens = [];
     }
     addItem(item) {
-        this.itens.push({
-            itemProduct: item.product,
-            productPrice: item.product.price
-        });
+        this.itens.push(item);
+    }
+    calcularSubtotal(){
+        
     }
 }
 
@@ -44,7 +42,10 @@ class itemPedido {
     constructor(product, qtnd) {
         this.product = product;
         this.qtnd = qtnd;
-        this.productTotalPrice = this.productPrice * qtnd
+    }
+    calcularTotalItem(){
+        let totalItem = this.product.unit_price * this.qtnd
+        return totalItem
     }
 }
 
