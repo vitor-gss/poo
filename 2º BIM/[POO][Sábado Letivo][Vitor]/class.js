@@ -64,8 +64,11 @@ let product1 = new Product("Relógio", 500);
 let product2 = new Product("Sapato", 85);
 let pedido1 = new Pedido("30/02/2007", 108, user1, shop1, 55);
 let itemPedido1 = new ItemPedido(product1, 1)
-let itemPedido2 = new ItemPedido(product2, 3)
+let itemPedido2 = new ItemPedido(product2, 2)
 pedido1.addItem(itemPedido1)
 pedido1.addItem(itemPedido2)
-console.log(pedido1.calcularSubtotal())
+console.log(`Subtotal ${pedido1.calcularSubtotal()}`)
+console.log(`Total ${pedido1.calcularTotal()}`)
+console.log(`Total item1 ${itemPedido1.calcularTotalItem()}`)
+console.log(`Total item2 ${itemPedido2.calcularTotalItem()}`)
 
