@@ -33,8 +33,17 @@ class Pedido {
     addItem(item) {
         this.itens.push(item);
     }
-    calcularSubtotal(){
-        
+    calcularSubtotal() {
+        // let subtotal = this.itens.calcularTotalItem().reduce((index, acumulador) => index + acumulador, 0);
+        let subtotal = 0;
+        for (const item of this.itens) {
+            subtotal += item.calcularTotalItem();
+        }
+        return subtotal;
+    }
+    calcularTotal() {
+        let total = this.calcularSubtotal() + this.frete;
+        return total;
     }
 }
 
@@ -43,10 +52,20 @@ class itemPedido {
         this.product = product;
         this.qtnd = qtnd;
     }
-    calcularTotalItem(){
+    calcularTotalItem() {
         let totalItem = this.product.unit_price * this.qtnd
         return totalItem
     }
 }
 
+let user1 = new User("Vit", 888888888, 0o0000000000, "Rua GWDASDASD");
+let shop1 = new Shop("Magagu", 0o123456711123);
+let product1 = new Product("Relógio", 56.82);
+let product2 = new Product("Sapato", 1556.89);
+let pedido1 = new Pedido("30/02/2007", 108, user1, shop1, 55);
+let itemPedido1 = new itemPedido(product1, 2)
+let itemPedido2 = new itemPedido(product2, 3)
+pedido1.addItem(itemPedido1)
+pedido1.addItem(itemPedido2)
+console.log(pedido1.calcularSubtotal())
 
