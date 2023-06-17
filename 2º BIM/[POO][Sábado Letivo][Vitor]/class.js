@@ -60,10 +60,10 @@ class itemPedido {
 
 let user1 = new User("Vit", 888888888, 0o0000000000, "Rua GWDASDASD");
 let shop1 = new Shop("Magagu", 0o123456711123);
-let product1 = new Product("Relógio", 56.82);
-let product2 = new Product("Sapato", 1556.89);
+let product1 = new Product("Relógio", 500);
+let product2 = new Product("Sapato", 85);
 let pedido1 = new Pedido("30/02/2007", 108, user1, shop1, 55);
-let itemPedido1 = new itemPedido(product1, 2)
+let itemPedido1 = new itemPedido(product1, 1)
 let itemPedido2 = new itemPedido(product2, 3)
 pedido1.addItem(itemPedido1)
 pedido1.addItem(itemPedido2)
