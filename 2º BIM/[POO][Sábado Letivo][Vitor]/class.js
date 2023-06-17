@@ -47,7 +47,7 @@ class Pedido {
     }
 }
 
-class itemPedido {
+class ItemPedido {
     constructor(product, qtnd) {
         this.product = product;
         this.qtnd = qtnd;
@@ -63,8 +63,8 @@ let shop1 = new Shop("Magagu", 0o123456711123);
 let product1 = new Product("Relógio", 500);
 let product2 = new Product("Sapato", 85);
 let pedido1 = new Pedido("30/02/2007", 108, user1, shop1, 55);
-let itemPedido1 = new itemPedido(product1, 1)
-let itemPedido2 = new itemPedido(product2, 3)
+let itemPedido1 = new ItemPedido(product1, 1)
+let itemPedido2 = new ItemPedido(product2, 3)
 pedido1.addItem(itemPedido1)
 pedido1.addItem(itemPedido2)
 console.log(pedido1.calcularSubtotal())
