@@ -18,13 +18,13 @@ function preencherSaldo() {
 }
 
 function obterSaldoBancario() {
-    return Number(bank.account.saldo);
+    return Number(user.accounts[0].saldo);
 }
 
 frm.addEventListener("submit", (e) => { // quando o botão Adicionar saldo for acionado
     e.preventDefault();
     const valor = Number(frm.inValor.value)
-    bank.account.saldo += valor // Soma o saldo com o valor informado
+    user.accounts[0].saldo += valor // Soma o saldo com o valor informado
     preencherSaldo() // atualiza o saldo
 });
 
@@ -34,11 +34,11 @@ frm.btRemoverSaldo.addEventListener("click", () => { //Remove o saldo
         return
     }
     const valor = Number(frm.inValor.value)
-    if (valor > bank.account.saldo) {
-        alert("O valor informado é maior que o saldo atual. Insira um valor menor ou igual ao saldo atual")
+    if (valor > user.accounts[0].saldo) {
+        alert("Você não possui saldo suficiente para fazer essa operação.")
         return
     }
-    bank.account.saldo -= valor // Subtrai o saldo pelo o valor informado
+    user.accounts[0].saldo -= valor // Subtrai o saldo pelo o valor informado
     preencherSaldo() // atualiza o saldo
 })
 function mudarOlhos() {

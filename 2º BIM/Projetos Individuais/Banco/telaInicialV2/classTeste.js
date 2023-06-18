@@ -11,7 +11,7 @@ class User {
     }
  
     showAllAccs() {
-        for(let acc in this.accounts) {
+        for(let acc of this.accounts) {
             console.log(acc.type);
         }
     }
@@ -36,11 +36,12 @@ class Bank {
 let user = new User("Vitão", 2023, "03895124444");
 user.adicionarConta(new Account(1, 200));
 let user2 = new User("Gabiel", 2022, "03888124443");
+user2.adicionarConta(new Account(2, 800));
 let bank = new Bank();
 bank.adicionarUsuario(user)
 bank.adicionarUsuario(user2)
  
-for(let u in bank.users) {
+for(let u of bank.users) {
     console.log(u.name);
     console.log(u.cpf);
     u.showAllAccs()
